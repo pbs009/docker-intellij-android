@@ -1,10 +1,10 @@
 FROM openkbs/ubuntu-bionic-jdk-mvn-py3
 
-ARG INTELLIJ_VERSION="ideaIC-2020.2.3"
+ARG INTELLIJ_VERSION="ideaIC-2020.3.1"
 ARG INTELLIJ_IDE_TAR=${INTELLIJ_VERSION}.tar.gz
 
 # Find the URLs here: https://developer.android.com/studio#command-tools
-ARG ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-7302050_latest.zip"
+ARG ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
 
 
 WORKDIR /opt
