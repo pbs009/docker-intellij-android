@@ -6,7 +6,6 @@ ARG INTELLIJ_IDE_TAR=${INTELLIJ_VERSION}.tar.gz
 # Find the URLs here: https://developer.android.com/studio#command-tools
 ARG ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip"
 
-
 WORKDIR /opt
 
 COPY jdk.table.xml /etc/idea/config/options/
